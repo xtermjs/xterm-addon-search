@@ -4,11 +4,17 @@
  */
 
 import { Terminal, IDisposable } from 'xterm';
-import { SearchAddon as SearchAddonApi, ISearchOptions } from '../typings/search';
 
 // TODO: This is temporary, link to xterm when the new version is published
 export interface ITerminalAddon extends IDisposable {
   activate(terminal: Terminal): void;
+}
+
+export interface ISearchOptions {
+  regex?: boolean;
+  wholeWord?: boolean;
+  caseSensitive?: boolean;
+  incremental?: boolean;
 }
 
 export interface ISearchResult {
@@ -50,7 +56,7 @@ interface ISelectionPosition {
 const NON_WORD_CHARACTERS = ' ~!@#$%^&*()+`-=[]{}|\;:"\',./<>?';
 const LINES_CACHE_TIME_TO_LIVE = 15 * 1000; // 15 secs
 
-export class SearchAddon extends SearchAddonApi implements ITerminalAddon {
+export class SearchAddon implements ITerminalAddon {
   private _terminal: INewTerminal;
 
   /**
