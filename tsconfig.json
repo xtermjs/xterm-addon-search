@@ -10,5 +10,9 @@
     "outDir": "lib",
     "sourceMap": true,
     "removeComments": true
-  }
+  },
+  "include": [
+    "./**/*",
+    "../typings/search.d.ts"
+  ],
 }
