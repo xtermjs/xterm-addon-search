@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-typescript@^3.2.2:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.2.2.tgz#fe8101c46aa123f8353523ebdcf5730c2ae493e5"
-  integrity sha512-VCj5UiSyHBjwfYacmDuc/NOk4QQixbE+Wn7MFJuS0nRuPQbof132Pw4u53dm264O8LPc2MVsc7RJNml5szurkg==
+typescript@^3.4.0:
+  version "3.4.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.5.tgz#2d2618d10bb566572b8d7aad5180d84257d70a99"
+  integrity sha512-YycBxUb49UUhdNMU5aJ7z5Ej2XGmaIBL0x34vZ82fn3hGvD+bgrMrVDpatgz2f7YxUMJxMkbWxJZeAvDxVe7Vw==
 
-xterm@^3.10.0:
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/xterm/-/xterm-3.10.0.tgz#2c3108d886b9cb4e2d7d4f1a05ce5be6758552de"
-  integrity sha512-ZA55MObCk8xKHG0TjZpStCJn6oIkPkW24ZtagZpUdol9kHYJ36imPsesZdVXsyxQd1le4RPpSpDU9O/rqq/yCA==
+xterm@^3.13.0:
+  version "3.13.0"
+  resolved "https://registry.yarnpkg.com/xterm/-/xterm-3.13.0.tgz#d0e06c3cf4c1f079aa83f646948457db3b04220b"
+  integrity sha512-FZVmvkkbkky3zldJ2NNOZ9h8jirtbGTlF4sIKMDrejR4wPsVZ3o4F++DQVkdeZqjAwtNOMoR17PMSOTZ+h070g==
